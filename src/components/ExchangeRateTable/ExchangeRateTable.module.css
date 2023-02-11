@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid blueviolet;
+    padding: 20px;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.container input, .container button, .container select {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border:2px solid blueviolet;
+    margin-left: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid blueviolet;
+}
+
+td {
+    min-width: 100px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rosybrown;
+}
+
+.header td {
+    background: skyblue;
+}
